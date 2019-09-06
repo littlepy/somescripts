@@ -4,6 +4,7 @@ import os, sys
 from time import sleep
 import binascii
 
+
 def hex2str(hex):
     return str(int(hex, 16))
 
@@ -46,13 +47,6 @@ def get_train_no(hex):
         return "UnicodeDecodeError: "+hex
 
 
-# def get_train_no(hex):
-#     # return binascii.unhexlify(hex)
-#     return hex
-
-
-
-
 def get_distance(hex):
     return hex2str(hex)
 
@@ -61,7 +55,6 @@ def get_route(hex):
     stop = hex2str(hex[6:])
 
     return f"{start}-{stop}"
-
 
 
 def get_pis_info(file):

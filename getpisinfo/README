@@ -1,1 +1,1 @@
-This script only support python >= 3.6
+This script only support python >= 3.6, becase of F strings.

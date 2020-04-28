@@ -1,2 +1,2 @@
 # somescripts
-some scripts I don't konw where to store.
+some useful scripts on various fields.
